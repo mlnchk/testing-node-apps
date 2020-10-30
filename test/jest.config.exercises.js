@@ -4,7 +4,8 @@ module.exports = {
   displayName: 'exercise',
   roots: [path.join(__dirname, '../src')],
   rootDir: path.join(__dirname, '..'),
-  testEnvironment: 'node',
+  // testEnvironment: 'node',
+  testEnvironment: 'jsdom',
   testMatch: ['**/__tests__/*.exercise.*'],
   moduleDirectories: [
     'node_modules',
