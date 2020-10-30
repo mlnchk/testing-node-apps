@@ -3,11 +3,7 @@
 Here are the topics we'll be covering:
 
 - Testing Pure Functions
-  <!-- - Testing Middleware -->
-  <!-- - Testing Controllers -->
 - Testing API routes
-- Mocking third party dependencies
-- Testing authenticated code
 
 ## System Requirements
 
