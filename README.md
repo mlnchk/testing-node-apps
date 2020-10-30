@@ -1,67 +1,10 @@
-<h1 align="center">
-  <a href="https://testingjavascript.com/courses/test-node-js-backends">Testing Node.js Backends</a>
-</h1>
-
-👋 hi there! My name is [Kent C. Dodds](https://kentcdodds.com)! This is a
-workshop repo to teach you how to test your Node.js Apps!
-
-<div align="center">
-  <h2><a href="https://testingjavascript.com">TestingJavaScript.com</a></h2>
-  <a href="https://testingjavascript.com">
-    <img
-      width="500"
-      alt="Learn the smart, efficient way to test any JavaScript application."
-      src="https://kentcdodds.com/images/testingjavascript-promo/tjs-4.jpg"
-    />
-  </a>
-</div>
-
-<hr />
-
-[![Build Status][build-badge]][build]
-[![AppVeyor Build Status][win-build-badge]][win-build]
-[![Code Coverage][coverage-badge]][coverage]
-[![GPL 3.0 License][license-badge]][license]
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
-[![PRs Welcome][prs-badge]][prs] [![Code of Conduct][coc-badge]][coc]
-
-## Pre-Workshop Instructions/Requirements
-
-In order for us to maximize our efforts during the workshop, please do the
-following:
-
-- [ ] Setup the project (follow the setup instructions below) (~5 minutes)
-- [ ] Install and setup [Zoom](https://zoom.us) on the computer you will be
-      using (~5 minutes)
-- [ ] Watch
-      [Use Zoom for KCD Workshops](https://egghead.io/lessons/egghead-use-zoom-for-kcd-workshops)
-      (~8 minutes).
-- [ ] Watch
-      [Setup and Logistics for KCD Workshops](https://egghead.io/lessons/egghead-setup-and-logistics-for-kcd-workshops)
-      (~24 minutes). Please do NOT skip this step.
-- [ ] Attend my
-      [Testing Fundamentals Workshop](https://kentcdodds.com/workshops/testing-fundamentals)
-      **or** have the equivalent fundamental understanding and experience with
-      automated testing and tools. (Additional learning material:
-      [But really, what is a JavaScript test?](https://kentcdodds.com/blog/but-really-what-is-a-javascript-test)
-      and
-      [But really, what is a JavaScript mock?](https://kentcdodds.com/blog/but-really-what-is-a-javascript-mock))
-- [ ] Attend my
-      [Modern JavaScript Workshop](https://kentcdodds.com/workshops/modern-javascript)
-      **or** have the equivalent experience with modern JavaScript APIs.
-- [ ] Attend my
-      [Asynchronous JavaScript Workshop](https://kentcdodds.com/workshops/asynchronous-javascript)
-      **or** have equivalent experience with asynchronous JavaScript.
-
-The more prepared you are for the workshop, the better it will go for you.
-
 ## Workshop Outline
 
 Here are the topics we'll be covering:
 
 - Testing Pure Functions
-- Testing Middleware
-- Testing Controllers
+  <!-- - Testing Middleware -->
+  <!-- - Testing Controllers -->
 - Testing API routes
 - Mocking third party dependencies
 - Testing authenticated code
@@ -80,10 +23,6 @@ git --version
 node --version
 yarn --version # or npm --version
 ```
-
-If you have trouble with any of these, learn more about the PATH environment
-variable and how to fix it here for [windows][win-path] or
-[mac/linux][mac-path].
 
 ## Setup
 
@@ -108,13 +47,7 @@ cd testing-node-apps
 node setup
 ```
 
-This may take a few minutes. **It will ask you for your email.** This is
-optional and just automatically adds your email to the links in the project to
-make filling out some forms easier If you get any errors, please read through
-them and see if you can find out what the problem is. You may also want to look
-at [Troubleshooting](#troubleshooting). If you can't work it out on your own
-then please [file an issue][issue] and provide _all_ the output from the
-commands you ran (even if it's a lot).
+This may take a few minutes.
 
 ## Running the tests
 
@@ -161,37 +94,7 @@ npm install
 npm run validate
 ```
 
-If those scripts fail, please try to work out what went wrong by the error
-message you get. If you still can't work it out, feel free to [open an
-issue][issue] with _all_ the output from that script. I will try to help if I
-can.
-
 </details>
-
-## Contributors
-
-Thanks goes to these wonderful people
-([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt=""/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/testing-node-apps/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/testing-node-apps/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/kentcdodds/testing-node-apps/commits?author=kentcdodds" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://stackshare.io/jdorfman/decisions"><img src="https://avatars1.githubusercontent.com/u/398230?v=4" width="100px;" alt=""/><br /><sub><b>Justin Dorfman</b></sub></a><br /><a href="#fundingFinding-jdorfman" title="Funding Finding">🔍</a></td>
-    <td align="center"><a href="https://www.andrewm.codes"><img src="https://avatars1.githubusercontent.com/u/18423853?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Mason</b></sub></a><br /><a href="https://github.com/kentcdodds/testing-node-apps/commits?author=andrewmcodes" title="Documentation">📖</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the
-[all-contributors](https://github.com/all-contributors/all-contributors)
-specification. Contributions of any kind welcome!
 
 ## License
 
@@ -204,40 +107,3 @@ at me@kentcdodds.com
 [node]: https://nodejs.org
 [git]: https://git-scm.com/
 [yarn]: https://yarnpkg.com/
-[build-badge]:
-  https://img.shields.io/travis/kentcdodds/testing-node-apps.svg?style=flat-square&logo=travis
-[build]: https://travis-ci.org/kentcdodds/testing-node-apps
-[license-badge]:
-  https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
-[license]:
-  https://github.com/kentcdodds/testing-node-apps/blob/master/README.md#license
-[prs-badge]:
-  https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[prs]: http://makeapullrequest.com
-[coc-badge]:
-  https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc]:
-  https://github.com/kentcdodds/testing-node-apps/blob/master/CODE_OF_CONDUCT.md
-[github-watch-badge]:
-  https://img.shields.io/github/watchers/kentcdodds/testing-node-apps.svg?style=social
-[github-watch]: https://github.com/kentcdodds/testing-node-apps/watchers
-[github-star-badge]:
-  https://img.shields.io/github/stars/kentcdodds/testing-node-apps.svg?style=social
-[github-star]: https://github.com/kentcdodds/testing-node-apps/stargazers
-[twitter]:
-  https://twitter.com/intent/tweet?text=Check%20out%20testing-node-apps%20by%20@kentcdodds%20https://github.com/kentcdodds/testing-node-apps%20%F0%9F%91%8D
-[twitter-badge]:
-  https://img.shields.io/twitter/url/https/github.com/kentcdodds/testing-node-apps.svg?style=social
-[emojis]: https://github.com/all-contributors/all-contributors#emoji-key
-[all-contributors]: https://github.com/all-contributors/all-contributors
-[win-path]:
-  https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/
-[mac-path]: http://stackoverflow.com/a/24322978/971592
-[issue]: https://github.com/kentcdodds/testing-node-apps/issues/new
-[win-build-badge]:
-  https://img.shields.io/appveyor/ci/kentcdodds/testing-node-apps.svg?style=flat-square&logo=appveyor
-[win-build]: https://ci.appveyor.com/project/kentcdodds/testing-node-apps
-[coverage-badge]:
-  https://img.shields.io/codecov/c/github/kentcdodds/testing-node-apps.svg?style=flat-square
-[coverage]: https://codecov.io/github/kentcdodds/testing-node-apps
-[watchman]: https://facebook.github.io/watchman/docs/install.html
